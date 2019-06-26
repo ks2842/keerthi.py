@@ -1,7 +1,7 @@
 ch=input()
-if('a','A','e','E','i','i','o','O','u','U'):
-   print("vowel")
-elif('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'):  
-   print("consonsnt")
+if ch in('a','A','e','E','i','i','o','O','u','U'):
+   print("Vowel")
+elif ch in('b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z'):  
+   print("Consonant")
 else:
-   print("Invalid")
+   print("invalid")
